@@ -34,5 +34,22 @@ public class ArrayLists {
 
 
 
+        //operations on ArrayList
+        //1. get(index)-->O(1)
+        System.out.println(list.get(2));  // Output: 3
+
+        //2. set(index,element)-->O(1)
+        list.set(2, 10);
+        System.out.println(list);  // Output: [1, 2, 10, 4]
+
+        //3. remove(index)-->O(n)
+        list.remove(1);
+        System.out.println(list);  // Output: [1, 10, 4]
+
+        //4. size()-->O(1)
+        System.out.println(list.size());  // Output: 3      
+
+    
+
     }
 }
